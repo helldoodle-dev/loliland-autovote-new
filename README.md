@@ -63,7 +63,7 @@ Create `config.json` with following structure:
 
 ## Logging 📋  
 
-The bot creates vote.log with all activities:  
+The bot creates `vote.log` with all activities:  
 ```js
 [2025-04-25 20:50:06] [INFO] Configuration loaded successfully
 [2025-04-25 20:50:06] [INFO] Accounts found: 2
@@ -83,5 +83,7 @@ The bot creates vote.log with all activities:
 ## Support 💬  
 
 For questions or issues, please [open an issue](https://github.com/helldoodle-dev/loliland-autovote-new/issues).  
+
+**Discord: helldoodle**
 
 Happy voting! 🎉
