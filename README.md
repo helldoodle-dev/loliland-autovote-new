@@ -16,21 +16,28 @@ A Python bot for automatic voting on loliland.ru with smart cooldown management 
 
 ## Installation 🛠️  
 
-1. Clone the repository  git clone https://github.com/helldoodle-dev/loliland-autovote-new.git
+1. Clone the repository 
+```
+git clone https://github.com/helldoodle-dev/loliland-autovote-new.git
 cd loliland-autovote-new
+```
 
-2. Install dependencies  pip install requests
+2. Install dependencies 
+```
+pip install requests
+```
 
 3. Create config file  
-Create config.json (see Configuration section below)
+Create `config.json` (see Configuration section below)
 
-4. Run the bot  python main.py
+4. Run the bot `python main.py`
 
 ---
 
 ## Configuration ⚙️  
 
-Create config.json with following structure:  
+Create `config.json` with following structure:  
+```
 {
     "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64)...",
     "min_delay": 5,
@@ -48,28 +55,30 @@ Create config.json with following structure:
         }
     ]
 }
+```
 
 ### Config Options:  
 
-- user-agent: Browser user agent string  
-- min_delay: Minimum delay between votes (seconds)  
-- max_delay: Maximum delay between votes (seconds)  
-- accounts: Array of account objects with:  
-  - name: Account nickname  
-  - access_id: Account access ID  
-  - access_token: Account access token  
+- `user-agent`: Browser user agent string  
+- `min_delay`: Minimum delay between votes (seconds)  
+- `max_delay`: Maximum delay between votes (seconds)  
+- `accounts`: Array of account objects with:  
+  - `name`: Account nickname  
+  - `access_id`: Account access ID  
+  - `access_token`: Account access token  
 
 ---
 
 ## Logging 📋  
 
 The bot creates vote.log with all activities:  
+```
 [2023-11-15 17:30:45] [INFO] Configuration loaded successfully
 [2023-11-15 17:30:45] [INFO] Accounts found: 2
 [2023-11-15 17:30:45] [INFO] account1 | Success! Response: {'payout': {'coinAmount': 46}}
 [2023-11-15 17:30:45] [INFO] Waiting 8.3 seconds...
 [2023-11-15 17:30:53] [INFO] account2 | Waiting required: 23:37:28
-
+```
 ---
 
 ## Important Notes ⚠️  
