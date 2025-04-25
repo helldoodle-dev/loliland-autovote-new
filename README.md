@@ -2,8 +2,6 @@
 
 A Python bot for automatic voting on loliland.ru with smart cooldown management and random delays.  
 
----
-
 ## Features ✨  
 
 - Multiple account support 👥 - Vote from multiple accounts sequentially  
@@ -11,8 +9,6 @@ A Python bot for automatic voting on loliland.ru with smart cooldown management 
 - Random delays 🎲 - Configurable random intervals between votes  
 - Persistent logging 📝 - Detailed logs in both console and file  
 - 24/7 operation 🌙☀️ - Automatically resumes when voting becomes available  
-
----
 
 ## Installation 🛠️  
 
@@ -31,8 +27,6 @@ pip install requests
 Create `config.json` (see Configuration section below)
 
 4. Run the bot `python main.py`
-
----
 
 ## Configuration ⚙️  
 
@@ -67,19 +61,16 @@ Create `config.json` with following structure:
   - `access_id`: Account access ID  
   - `access_token`: Account access token  
 
----
-
 ## Logging 📋  
 
 The bot creates vote.log with all activities:  
 ```
-[2023-11-15 17:30:45] [INFO] Configuration loaded successfully
-[2023-11-15 17:30:45] [INFO] Accounts found: 2
-[2023-11-15 17:30:45] [INFO] account1 | Success! Response: {'payout': {'coinAmount': 46}}
-[2023-11-15 17:30:45] [INFO] Waiting 8.3 seconds...
-[2023-11-15 17:30:53] [INFO] account2 | Waiting required: 23:37:28
+[2025-04-25 20:50:06] [INFO] Configuration loaded successfully
+[2025-04-25 20:50:06] [INFO] Accounts found: 2
+[2025-04-25 20:50:06] [INFO] account1 | Success! Response: {'payout': {'coinAmount': 46}}
+[2025-04-25 20:50:06] [INFO] Waiting 8.3 seconds...
+[2025-04-25 20:50:06] [INFO] account2 | Waiting required: 23:37:28
 ```
----
 
 ## Important Notes ⚠️  
 
