@@ -31,7 +31,7 @@ Create `config.json` (see Configuration section below)
 ## Configuration ⚙️  
 
 Create `config.json` with following structure:  
-```
+```json
 {
     "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64)...",
     "min_delay": 5,
@@ -64,7 +64,7 @@ Create `config.json` with following structure:
 ## Logging 📋  
 
 The bot creates vote.log with all activities:  
-```
+```js
 [2025-04-25 20:50:06] [INFO] Configuration loaded successfully
 [2025-04-25 20:50:06] [INFO] Accounts found: 2
 [2025-04-25 20:50:06] [INFO] account1 | Success! Response: {'payout': {'coinAmount': 46}}
