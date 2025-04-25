@@ -1,0 +1,17 @@
+{
+	"user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36",
+	"min_delay": 5,
+    "max_delay": 15,
+	"accounts": [
+        {
+            "name": "account1",
+            "access_id": "01812ef3-1092-7ceb-81b2-4791564aab5f",
+            "access_token": "95ffaa952dbad379bf60711cf88682b389..."
+        },
+        {
+            "name": "account2",
+            "access_id": "01812ef3-1092-7ceb-81b2-47911564aab5f",
+            "access_token": "95ffaa952dbad379bf60711cf881682b389..."
+        }
+	]
+}
